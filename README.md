@@ -4,3 +4,7 @@ You're a member of sync-x, a crowdsourced initiative, working to improve the sta
 
 The website should ideally contain 4-5 pages/sections essentially describing the solution and the company. Although not mandatory, you're free to extend backend functionality to your website.
 This repository has been created especially for HacktoberFest 2020!
+## Collaborating 
+1. Fork this repo
+2. Clone it onto your PC.
+3. Make the changes and open a PR 
