@@ -1,0 +1,52 @@
+body {
+    background-color: #9fdcdd;
+    text-align: justify;
+   }
+  
+  
+    .topnav {
+        background-color: #9f8bef ;
+        overflow : hidden ;
+        height: 50px ;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+      
+    }
+  
+    .topnav a {
+     color: #fff ;
+      
+      padding: 14px 16px;
+      position: relative;
+      top: 10px;
+      }
+  
+      .topnav a:hover {
+          background-color: #becbe8;
+        color: black;
+      }
+  
+     .topnav .current {
+          background-color: #bee8be;
+        color: black;
+      }
+      .main {
+            margin-top:50px;
+        }
+  .head {
+    font-family: Lobster;
+  }
+  #idea2 {
+    font-family: "Dancing Script", cursive;
+    font-size: 36px;
+    font-weight: bold;}
+    .app1 {
+      font-family: 'Roboto Slab';
+      font-size: 18px;
+    }
+  
+  #more {
+    display: none;
+  }
