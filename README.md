@@ -6,3 +6,4 @@ You have to create websites on the topic given at https://github.com/life-sync/w
 3. Make a folder with your github username along with the issue no.
 4. Copy the index.html , index.css and index.js into that folder and then make your website
 5. After you have made all the changes, open a PR.
+6. If you are making a website you must your own forked repository on github pages or share a screenshort of the whole website in the PR, otherwise it will not be merged
