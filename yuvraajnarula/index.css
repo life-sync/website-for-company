@@ -1,0 +1,108 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway:wght@200&display=swap');
+/* Styling for pc */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+  }
+  body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  .card{
+    width: 350px;
+    background: linear-gradient(#ed0556 118px, #06013d 118px);
+    text-align:  center;
+    box-shadow: 0 0 30px  rgba(0,0,0,0.8);
+  }
+  img{
+    width: 118px;
+    height: 118px;
+    object-fit: cover;
+    margin: 59px auto 0;
+    outline: 4px solid #fff;
+    outline-offset: 10px;
+  }
+  .name{
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-size: 28px;
+  }
+  .about{
+    text-transform: uppercase;
+    margin: 28px 0;
+    padding: 0 15px;
+    line-height: 1.6;
+  }
+  .btn-grp{
+    margin-bottom: 30px;
+  }
+  .btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 20px;
+    background: #ed0556;
+    display: inline-block;
+    margin: 10px;
+    font-weight: 500;
+  }
+  .btn:hover{
+    background: #c7084b;
+    color: white;
+    opacity: 0.9;
+  }
+  .connect i{
+    margin-left: 5px;
+    font-size: 14px;
+    transition: all 0.4s;
+  }
+  .social-media-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #111;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.6s;
+  }
+  .social-media{
+    font-size: 28px;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    border-radius: 10px;
+    transform: translateY(-100px);
+    transition: transform 0.5s,
+                opacity 1s,
+                color 0.3s,
+                background-color 0.3s;
+  }
+  .social-media:hover{
+    background: #fff;
+    color: #06013d;
+    text-decoration: none;
+  }
+  .social-media-list.active{
+    height: auto;
+    padding: 20px;
+  }
+  .social-media-list.active .social-media{
+   opacity: 1;
+   transform: translateY(0);
+  }
+  #particles-js {
+    background: black;
+    height: 100vh;
+}
