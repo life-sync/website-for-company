@@ -1,0 +1,76 @@
+.head{
+    text-align: center;
+}
+.content{
+    font-size: 1.5em;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+h2{
+    text-decoration: underline;
+}
+h3{
+    text-align: center;
+}
+#avatar{
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    float: left;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+.jumbotron{
+    padding: 0;
+}
+#skills .card-img-top{
+    margin: 5px;
+}
+footer{
+    position: relative; 
+    color: black;
+    float: center;
+    padding: 10px 0;
+    text-align: center; 
+    bottom: 0px; 
+    width: 100%;
+    /* opacity: 0.8; */
+}
+
+footer .link-icon{
+    margin: 0 5px;
+    font-size: 25px;
+    color: black;
+}
+
+#bar{
+	font-weight: lighter;
+	font-size: 1.3rem;
+    letter-spacing: 1.5px;
+    font-family: 'Nunito', sans-serif;
+}
+#bar .navbar-brand{
+	letter-spacing: 3px;
+    font-size: 2rem;
+    margin-right: 40px;
+}
+#bar .nav-link{
+	padding:0 10px;
+}
+#bar .nav-link:hover{
+	color: #0335fc;
+}
+
+@media(max-width:992px){
+    #skills .card{
+        margin: 20px auto;
+    }
+    #interests .card{
+        margin: 10px auto;
+    }
+    h2{
+        text-align: center;
+    }
+}
