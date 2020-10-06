@@ -1,0 +1,209 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway:wght@200&display=swap');
+/* Styling for pc */
+
+body{
+	background-color: #fd5e53;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.3rem;
+
+}
+
+/*  Navigation Bar */
+
+.navbar-dark .navbar-nav .nav-link{
+	padding: auto 20%;
+}
+
+.dol{
+	background-color: #fff;
+}
+
+.symbol{
+	font-family: 'Oxanium';
+	padding-left: 5%;
+	color: #ffd5e5;
+    letter-spacing: 3px;
+}
+
+.nav-link{
+  color: #fff;
+}
+
+
+/* Content*/
+
+.container-fluid{
+       padding: 7% 10%;
+   }
+
+   h1{
+   	color: #f3c623;
+   	font-size: 3.5rem;
+   	font-family: 'Yeon Sung';
+   }
+
+   .eclipse{
+    color: #721b65;
+   }
+
+   .con-img{
+   	padding-top: 15%;
+   	margin-left: 10%;
+   	width: 120%;
+   	height: 74%;
+   }
+  
+  .row{
+  	padding-bottom: 5%;
+  }
+
+   hr{
+   	border: 1px dashed #512b58;
+   	text-align: center;
+   	width: 50%;
+   }
+
+   /* Detailed Information */
+
+   #Detailed-info{
+   	padding: 5% 15%;
+   	background-color: #505bda;
+   	text-align: center;
+   	color: #f7be16;
+   	font-family: 'Yeon Sung';
+    width: 100%;
+    height: 900px;
+   }
+
+   .dead{
+   	border-radius: 95px;
+   	height: 30%;
+   	width: 30%;
+   }
+
+   .dead2{
+    border-radius: 62px;
+    height: 30%;
+    width: 55%;
+   }
+   
+
+   /* Idea Section*/
+
+   .tempo{
+   	padding-top: 7%;
+   }
+
+   #Idea{
+   	padding-top: 15%;
+    padding-left: 20%;
+    padding-bottom: 20%;
+   }
+
+.row{
+
+  padding-right: 5%;
+}
+
+.butt {
+  font-family: georgia;
+  font-weight: bold;
+  color: #381460 !important;
+  font-size: 14px;
+  text-shadow: 2px 2px 2px #46185F;
+  box-shadow: 2px 2px 2px #323EDD;
+  padding: 10px 25px;
+  -moz-border-radius: 11px;
+  -webkit-border-radius: 11px;
+  border-radius: 11px;
+  border: 4px groove #110133;
+  background: #63B8EE;
+  background: linear-gradient(top,  #a1e6e3,  #323EDD);
+  background: -ms-linear-gradient(top,  #a1e6e3,  #323EDD);
+  background: -webkit-gradient(linear, left top, left bottom, from(#a1e6e3), to(#323EDD));
+  background: -moz-linear-gradient(top,  #a1e6e3,  #323EDD);
+}
+.butt:hover {
+  color: #14396A !important;
+  background: #468CCF;
+  background: linear-gradient(top,  #D7FFFD,  #63B8EE);
+  background: -ms-linear-gradient(top,  #D7FFFD,  #63B8EE);
+  background: -webkit-gradient(linear, left top, left bottom, from(#D7FFFD), to(#63B8EE));
+  background: -moz-linear-gradient(top,  #D7FFFD,  #63B8EE);
+}
+
+ .another{
+  border: 4px solid #424874;
+  display: inline-block;
+  border-radius: 10px;
+  width: 77%;
+  height: 105%;
+  background-color: #ffd5e5;
+  text-align: center;
+  font-size: 30px;
+  color: #323edd;
+  float: left;
+  line-height: 1.5;
+  font-family: 'Abel', sans-serif;
+  font-weight: 60%;
+  }
+
+  .tempo{
+    font-size: 3rem;
+  }
+  .anom{
+    padding-bottom: 10%;
+  }
+
+.mother{
+  border: 4px solid #424874;
+  display: inline-block;
+  border-radius: 10px;
+  width: 77%;
+  height: 105%;
+  background-color: #ffd5e5;
+  text-align: center;
+  font-size: 30px;
+  color: #323edd;
+  float: left;
+  line-height: 1.5;
+  font-family: 'Abel', sans-serif;
+}
+
+.brother{
+  padding-right: 10%;
+}
+
+footer{
+ width: 100%
+ height: 10%;
+ background-color: #111d5e;
+ text-align: center;
+ font-family: "Yeon Sung";
+}
+
+.tink{
+  color: #fff;
+}
+
+@media(max-width: 992px){
+  .con-img{
+    width: 80%;
+    padding-right: 5%;
+  }
+}
+
+@media(max-width: 768px) 
+{
+   .family-column{
+    padding-bottom: 20%;
+  }
+}
+
+@media(max-width: 810px) 
+{
+  .container-fluid{
+    text-align: center;
+  }
+}
