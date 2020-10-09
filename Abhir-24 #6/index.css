@@ -38,13 +38,13 @@ body{
    }
 
    h1{
-   	color: #f3c623;
+   	color: white;
    	font-size: 3.5rem;
    	font-family: 'Yeon Sung';
    }
 
    .eclipse{
-    color: #721b65;
+    color: white;
    }
 
    .con-img{
@@ -57,7 +57,12 @@ body{
   .row{
   	padding-bottom: 5%;
   }
-
+.carousel-item p{
+color: white;
+}
+.carousel-item li{
+color: white;
+}
    hr{
    	border: 1px dashed #512b58;
    	text-align: center;
@@ -137,7 +142,7 @@ body{
   border: 4px solid #424874;
   display: inline-block;
   border-radius: 10px;
-  width: 77%;
+  width: 100%;
   height: 105%;
   background-color: #ffd5e5;
   text-align: center;
@@ -160,7 +165,7 @@ body{
   border: 4px solid #424874;
   display: inline-block;
   border-radius: 10px;
-  width: 77%;
+  width: 100%;
   height: 105%;
   background-color: #ffd5e5;
   text-align: center;
