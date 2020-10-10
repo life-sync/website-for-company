@@ -3,10 +3,9 @@
 /* Styling for pc */
 
 body{
-	background-color: #fd5e53;
+	background-color: #343434;
 	font-family: 'Poppins', sans-serif;
-	font-size: 1.3rem;
-
+	font-size: 1rem;
 }
 
 /*  Navigation Bar */
@@ -23,7 +22,7 @@ body{
 	font-family: 'Oxanium';
 	padding-left: 5%;
 	color: #ffd5e5;
-    letter-spacing: 3px;
+  letter-spacing: 3px;
 }
 
 .nav-link{
@@ -34,8 +33,10 @@ body{
 /* Content*/
 
 .container-fluid{
-       padding: 7% 10%;
-   }
+  padding-left: 5%;
+  padding-right: 7%;
+  padding-top: 3%;
+}
 
    h1{
    	color: white;
@@ -48,10 +49,11 @@ body{
    }
 
    .con-img{
-   	padding-top: 15%;
-   	margin-left: 10%;
-   	width: 120%;
-   	height: 74%;
+   	padding-top: 10%;
+   	margin-left: 15%;
+   	width: 100%;
+     height: 100%;
+     border-radius: 50%;
    }
   
   .row{
@@ -96,14 +98,10 @@ color: white;
 
    /* Idea Section*/
 
-   .tempo{
-   	padding-top: 7%;
-   }
-
    #Idea{
    	padding-top: 15%;
     padding-left: 20%;
-    padding-bottom: 20%;
+    padding-bottom: 10%;
    }
 
 .row{
@@ -138,22 +136,6 @@ color: white;
   background: -moz-linear-gradient(top,  #D7FFFD,  #63B8EE);
 }
 
- .another{
-  border: 4px solid #424874;
-  display: inline-block;
-  border-radius: 10px;
-  width: 100%;
-  height: 105%;
-  background-color: #ffd5e5;
-  text-align: center;
-  font-size: 30px;
-  color: #323edd;
-  float: left;
-  line-height: 1.5;
-  font-family: 'Abel', sans-serif;
-  font-weight: 60%;
-  }
-
   .tempo{
     font-size: 3rem;
   }
@@ -166,12 +148,12 @@ color: white;
   display: inline-block;
   border-radius: 10px;
   width: 100%;
-  height: 105%;
+  height: 100%;
   background-color: #ffd5e5;
   text-align: center;
-  font-size: 30px;
-  color: #323edd;
-  float: left;
+  font-size: 1.5rem;
+  padding: 5%;
+  color: #121b94;
   line-height: 1.5;
   font-family: 'Abel', sans-serif;
 }
@@ -181,7 +163,7 @@ color: white;
 }
 
 footer{
- width: 100%
+ width: 100%;
  height: 10%;
  background-color: #111d5e;
  text-align: center;
