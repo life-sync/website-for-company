@@ -1,0 +1,244 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+a:link{
+    text-decoration: none;
+    color: #D6ED17;
+}
+
+a:visited{
+    color: #D6ED17;
+}
+
+a:hover{
+   color: #f0a10f;
+}
+
+body{
+    background-color: #222222;
+    color: #f5f5f5;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+strong{
+    font-weight: 900;
+}
+
+h1{
+    font-size: 3.5rem;
+    line-height: 1.1;
+}
+h2{
+    font-size: 2.6rem;
+    line-height: 1.1;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Special Elite;
+    font-weight: 700;
+    padding: 0px;
+    left: 0;
+    top: 0px;
+}
+nav ul{
+    white-space: nowrap;
+}
+
+nav li{
+    display:inline-flex;
+    font-size: 1.6rem;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    width: 40%;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+#about-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6em 2em 7.5em 1em;
+}
+
+.my_img{
+    border: 1px solid #D6ED17;
+    border-radius: 100px;
+    width: 400px;
+}
+
+.text{
+    margin: 2em 0em 0em 0em;
+    display:flex;
+    font-family: Gilroy;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.p1{
+    padding-left: 14%;
+}
+
+#skills{
+    margin: 1px;
+    max-height: 1000px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.background_img{
+    background-image: url(./images/background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title{
+    font-size: 4rem;
+    color:#d6e92f;
+    font-family: Special Elite;
+    text-align: center;
+    margin: 30px 0px;
+    padding: 37px 0px;
+}
+
+.skill-set{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 98%;
+    align-items: center;
+    max-height: 1000px;
+    text-align: center;
+    margin-right: -2%;
+    margin-bottom: -2%;
+    padding: 50px 40px 100px 40px;  
+}
+
+.skill-icons{
+        transition: transform 1s ease;
+        opacity: 100%;
+}
+
+.skill-icons:hover{
+    transform: scale(1.1);
+}
+
+.skill-icons.s1 img{
+    width: 250px;
+    height: 190px;
+    border-radius: 20%;
+}
+.skill-icons.s2 img{
+    width: 250px;
+    height: 180px;
+    border-radius: 20%;
+}
+.skill-icons.s3 img{
+    width: 250px;
+    height: 180px;
+    border-radius: 20%;
+}
+
+#contact-me{
+    background-color: #171717;
+    padding: 4em 0em;
+}
+
+.contact-body{
+    font-size: 1.8rem;
+    color: #D6ED17;
+    padding: 0em 3em 0em 3em;
+}
+
+.media-links{
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 0em 0em 0em;
+    width: 60%;
+    align-items: center;
+}
+.media-links-item{
+    width: 40px;
+    opacity: 100%;
+}
+.media-links-item:hover{
+    opacity: 50%;
+}
+                /* Media Queries  */
+@media(max-width:1200px) {
+    nav li{
+        width: 52%;
+    }
+}
+
+@media(max-width:1100px){
+    .media-links-item{
+        width: 30px;
+    }
+    .media-links{
+        width: 100%;
+    }
+}
+
+@media(max-width:900px){
+    nav {
+        display: none;
+    }
+
+    .my_img{
+        width: 350px;
+    }
+
+    #about-me{
+        display: flex;
+       flex-flow: column wrap;
+       justify-content: center;
+       align-content: center;
+       
+    }
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .skill-icons img{
+    display: flex;
+    flex-direction:column;
+    align-content: center;
+    width: 125px;
+   }
+
+   .skill-set{
+       justify-content: space-between;
+    }
+
+   .skill-set img{
+       align-self: center;
+    flex-flow:column wrap;   
+   }
+
+   .skill-icons{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-top: 10px; 
+   }
+
+}
