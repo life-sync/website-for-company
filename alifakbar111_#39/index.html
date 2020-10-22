@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+</head>
+
+<body>
+    <nav class="navbar is-link is-fixed-top">
+        <div class="navbar-brand">
+            <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div id="navbarExampleTransparentExample" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="#about">
+                    <span class="icon">
+                        <i class="fas fa-info"></i>
+                    </span>
+                    <span>About</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Header -->
+    <section class="hero is-link is-fullheight is-fullheight-with-navbar">
+        <div class="hero-body">
+            <div class="container">Hello! I am
+                <h1 class="title is-1">
+                    Alif
+                </h1>
+                <h2 class="subtitle is-3">
+                    FrontEnd Developer and Data Analyst
+                </h2>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="about">
+        <!-- Title -->
+        <div class="has-text-centered">
+            <h3 class="title is-2">About Me</h3>
+            <h4 class="subtitle is-5">Micro master of "some"</h4>
+            <div class="container">
+                <p>A web developer as frontend engineer about <strong>a year</strong>
+                    of well-rounded experience with a degree in the
+                    field of <strong>Computer Science</strong>, extensive knowledge of modern Web techniques and love
+                    for <strong>Coffee</strong>.
+                    Looking for an opportunity to work and upgrade, as well as being involved in an organization that
+                    believes in gaining a competitive edge and giving back to the community.
+                </p>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="columns has-same-height is-gapless">
+                <div class="column">
+                    <div class="card">
+                        <div class="card-content">
+                            <h3 class="title is-4">Profile</h3>
+                            <div class="content">
+                                <table class="table-profile">
+                                    <tr>
+                                        <th colspan="1"></th>
+                                        <th colspan="2"></th>
+                                    </tr>
+                                    <tr>
+                                        <td>Address:</td>
+                                        <td>Guru's Lab</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Phone:</td>
+                                        <td>0123-456789</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Email:</td>
+                                        <td>minion@despicable.me</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <br>
+                            <div class="buttons has-addons is-centered">
+                                <a href="#" class="button is-link">Github</a>
+                                <a href="#" class="button is-link">LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <!-- Profile picture -->
+                    <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-square">
+                            <img src="https://source.unsplash.com/random/480x480" alt="Placeholder image">
+                          </figure>
+                        </div>
+                      </div>
+                </div>
+                <div class="column">
+                    <!-- Skills -->
+                    <div class="card">
+                        <div class="card-content">
+                            <h3 class="title is-4">Skills</h3>
+                            <div class="content">
+
+                                <article class="media mt-0 mb-0">
+                                    <div class="media-content">
+                                        <div class="content">
+                                            <p>
+                                                <strong>Svelte</strong>
+                                                <br>
+                                                <progress class="progress is-primary is-small" value="50"
+                                                    max="100"></progress>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="media mt-0 mb-0">
+                                    <div class="media-content">
+                                        <div class="content">
+                                            <p>
+                                                <strong>HTML5/CSS3</strong>
+                                                <br>
+                                                <progress class="progress is-primary is-small" value="80"
+                                                    max="100"></progress>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="media mt-0 mb-0">
+                                    <div class="media-content">
+                                        <div class="content">
+                                            <p>
+                                                <strong>Python</strong>
+                                                <br>
+                                                <progress class="progress is-primary is-small" value="80"
+                                                    max="100"></progress>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="media mt-0 mb-0">
+                                    <div class="media-content">
+                                        <div class="content">
+                                            <p>
+                                                <strong>Databases</strong>
+                                                <br>
+                                                <progress class="progress is-primary is-small" value="40"
+                                                    max="100"></progress>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer has-background-grey-dark">
+        <div class="container">
+            <div class="has-text-centered">
+                <span class="icon is-large">
+                    <span class="fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x fa-inverse"></i>
+                        <i class="fab fa-twitter fa-stack-1x"></i>
+                    </span>
+                </span>
+                <span class="icon is-large">
+                    <span class="fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x fa-inverse"></i>
+                        <i class="fab  fa-facebook-f fa-stack-1x"></i>
+                    </span>
+                </span>
+                <span class="icon is-large">
+                    <span class="fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x fa-inverse"></i>
+                        <i class="fab fa-instagram fa-stack-1x"></i>
+                    </span>
+                </span>
+                <span class="icon is-large">
+                    <span class="fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x fa-inverse"></i>
+                        <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                    </span>
+                </span>
+            </div>
+            <br>
+            <p class="has-text-centered has-text-white">© 2020 Creator DX Developer</p>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+<style>
+    .has-same-height .card {
+        height: 320px;
+        overflow: hidden;
+    }
+</style>
